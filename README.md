@@ -1,1 +1,1 @@
-# interact-mapper
+# interactmapper
