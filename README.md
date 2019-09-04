@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/octaviamd/interact-mapper.svg?branch=master)](https://travis-ci.org/octaviamd/interact-mapper)
 <!-- badges: end -->
 
 The goal of interactmapper is to …
