@@ -1,15 +1,16 @@
 Package: interactmapper
-Title: What the Package Does (One Line, Title Case)
+Title: An Interactive Plotting Tool for Dimension Reduction
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Octavia",
+           family = "Dancu-Lixandru",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "octavia-maria.dancu@mail.mcgill.ca",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: interactmapper makes interpreting dimension reduction results more intuitive and open to exploration, by providing easy ways to overlay secondary information on your plotted data, with hovertext labels featuring the features of your choice, color coordinated based on your primary feature of interest
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat
+RoxygenNote: 6.1.1

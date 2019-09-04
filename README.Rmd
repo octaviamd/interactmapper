@@ -39,8 +39,9 @@ devtools::install_github("octaviamd/interact-mapper")
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-#library(interactmapper)
-## basic example code
+library(interactmapper)
+#interact_qual(iris[,1:4], iris$Species, "UMAP")
+
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
