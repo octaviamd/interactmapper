@@ -6,7 +6,7 @@
 \alias{interactmapper-package}
 \title{interactmapper: An Interactive Plotting Tool for Dimension Reduction}
 \description{
-interactmapper makes interpreting dimension reduction results more intuitive and open to exploration, by providing easy ways to overlay secondary information on your plotted data, with hovertext labels featuring the features of your choice, color coordinated based on your primary feature of interest
+The package interactmapper makes interpreting dimension reduction results more intuitive and open to exploration, by providing easy ways to overlay secondary information on your plotted data, with hovertext labels featuring the features of your choice, color coordinated based on your primary feature of interest.
 }
 \author{
 \strong{Maintainer}: Octavia Dancu-Lixandru \email{octavia-maria.dancu@mail.mcgill.ca} (YOUR-ORCID-ID)

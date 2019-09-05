@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "octavia-maria.dancu@mail.mcgill.ca",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: interactmapper makes interpreting dimension reduction results more intuitive and open to exploration, by providing easy ways to overlay secondary information on your plotted data, with hovertext labels featuring the features of your choice, color coordinated based on your primary feature of interest
+Description: The package interactmapper makes interpreting dimension reduction results more intuitive and open to exploration, by providing easy ways to overlay secondary information on your plotted data, with hovertext labels featuring the features of your choice, color coordinated based on your primary feature of interest.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
