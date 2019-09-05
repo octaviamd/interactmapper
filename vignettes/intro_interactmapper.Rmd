@@ -1,0 +1,21 @@
+---
+title: "Introduction to interactmapper"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{intro_interactmapper}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+Welcome to interactmapper! USing interactmapper will allow you to have a more intuitive grasp of the more subtle relationships between your data and your feature of interest, through optimization of the visualization of dimension reduction results.
+
+Dimension reduction can be very helpful for understanding underlying connections across your data! (write more here). However, at certain points, you may wish to test hypotheses about different clusters that you see appearing in your plots resulting from dimension reduction and what may be driving them. Here is a simple example of how interactmapper can represent that!
+```{r setup}
+library(interactmapper)
+```
