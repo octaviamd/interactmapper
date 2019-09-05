@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.org/octaviamd/interact-mapper.svg?branch=master)](https://travis-ci.org/octaviamd/interact-mapper)
+status](https://travis-ci.org/octaviamd/interactmapper.svg?branch=master)](https://travis-ci.org/octaviamd/interactmapper?branch=master)
 <!-- badges: end -->
 
 The goal of interactmapper is to …
@@ -24,7 +24,7 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("octaviamd/interact-mapper")
+devtools::install_github("octaviamd/interactmapper")
 ```
 
 ## Example
@@ -33,6 +33,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(interactmapper)
+#> Registered S3 method overwritten by 'openssl':
+#>   method      from
+#>   print.bytes Rcpp
 #interact_qual(iris[,1:4], iris$Species, "UMAP")
 ```
 

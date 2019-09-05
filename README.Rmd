@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 # interactmapper
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/octaviamd/interact-mapper.svg?branch=master)](https://travis-ci.org/octaviamd/interact-mapper)
+[![Travis build status](https://travis-ci.org/octaviamd/interactmapper.svg?branch=master)](https://travis-ci.org/octaviamd/interactmapper?branch=master)
 <!-- badges: end -->
 
 The goal of interactmapper is to ...
@@ -32,7 +32,7 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("octaviamd/interact-mapper")
+devtools::install_github("octaviamd/interactmapper")
 ```
 ## Example
 
