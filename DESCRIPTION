@@ -20,5 +20,6 @@ Imports:
     umap,
     colourvalues,
     ggplot2,
-    plotly
+    plotly,
+    shiny
 VignetteBuilder: knitr
