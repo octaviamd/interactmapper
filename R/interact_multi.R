@@ -40,7 +40,7 @@ interact_multi=function(count_data, main_info_data, sec_info_data, dim_red_meth,
   }
   if(missing(sec_info_name)==TRUE){
     if(is.vector(sec_info_data)==TRUE){
-      sec_info_name<-"Secondary info:"
+      sec_info_name<-"Secondary info"
     }
     else{
     sec_info_name<-colnames(sec_info_data)
