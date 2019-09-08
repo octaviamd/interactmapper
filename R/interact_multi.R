@@ -43,11 +43,17 @@ interact_multi=function(count_data, main_info_data, sec_info_data, dim_red_meth,
   }
   a<-c()
   print(str(sec_info_data))
-  #for(i in 1:ncol(sec_info_data)){
-  #  a<-paste(a,sec_info_name[i],': ', sec_info_data[,i], '<br>', sep="")
-  #}
-  #p1<-plotly::plot_ly(dim_data, x = dim_data[,1], y = dim_data[,2], type = 'scatter', mode = 'markers', marker=list(color= ~colours),
-  #            hoverinfo = 'text', text = ~paste('Sample Name: ', dim_data$sample.labels, '<br>', main_info_name, ': ', main_info_data,'<br>', a))
+  print(dim(sec_info_data))
+  if(is.vector(sec_info_data)==TRUE){
+    a<-paste(a,sec_info_name,': ', sec_info_data, '<br>', sep="")
+  }
+  else{
+  for(i in 1:ncol(sec_info_data)){
+    a<-paste(a,sec_info_name[i],': ', sec_info_data[,i], '<br>', sep="")
+  }
+  }
+  p1<-plotly::plot_ly(dim_data, x = dim_data[,1], y = dim_data[,2], type = 'scatter', mode = 'markers', marker=list(color= ~colours),
+             hoverinfo = 'text', text = ~paste('Sample Name: ', dim_data$sample.labels, '<br>', main_info_name, ': ', main_info_data,'<br>', a))
   
- # return(p1)
+  return(p1)
 }
