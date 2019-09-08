@@ -17,5 +17,7 @@ Returns a dataframe with the two feature columns resulting from the PCA (princip
 }
 \examples{
  p<-pca_maker(iris[,1:4])
-
+}
+\seealso{
+\code{\link[prcomp]{stats}}
 }

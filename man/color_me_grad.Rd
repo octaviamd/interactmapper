@@ -9,12 +9,12 @@ color_me_grad(u_data, info_overlay, your_palette)
 \arguments{
 \item{u_data}{dataframe holding output of dimension reduction}
 
-\item{info_overlay}{numerical data that color_me_grad will represent with color gradations}
+\item{info_overlay}{data that color_me_grad will represent with color}
 
-\item{your_palette}{the palette of your choice (please see colourvalues documentation to see options)}
+\item{your_palette}{the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)}
 }
 \value{
-dataframe with original dimension reduction and column with color values, as well as the info_overlay column
+dataframe with original dimension reduction and column with color values, and the info_overlay column
 }
 \description{
 function to make color info dataframe corresponding to your feature of interest for your data that you want represented via color, then adding it to the dimension reduced dataframe
