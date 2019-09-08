@@ -4,11 +4,7 @@
 #' @return a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column
 #' @details 
 #' @examples 
-#' \dontrun{
-#' if(interactive()){
 #'  p<-pca_maker(iris[,1:4])
-#'  }
-#' }
 #' 
 #' @rdname pca_maker
 #' @export 

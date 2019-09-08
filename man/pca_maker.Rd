@@ -15,9 +15,6 @@ a dataframe with the two feature columns resulting from the PCA dimension reduct
 \description{
 Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
 }
-\details{
-Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
-}
 \examples{
 \dontrun{
 if(interactive()){
