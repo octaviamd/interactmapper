@@ -14,7 +14,8 @@
 pca_maker=function(count_data){
   pca_results<-prcomp(count_data)
   p<-pca_results$x[,1:2]
-  sample.labels=rownames(count_data)
+  sample.labels<-rownames(count_data)
   p<-as.data.frame(p, sample.labels)
+  print(p[1:5,])
   return(p)
 }

@@ -1,5 +1,6 @@
 ---
 output: github_document
+#always_allow_html: yes
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -46,6 +47,8 @@ library(interactmapper)
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+![](https://media.giphy.com/media/xUOxf7XfmpxuSode1O/giphy.gif)
 
 ```{r cars}
 summary(cars)

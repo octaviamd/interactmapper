@@ -43,6 +43,8 @@ library(interactmapper)
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
+![](https://media.giphy.com/media/xUOxf7XfmpxuSode1O/giphy.gif)
+
 ``` r
 summary(cars)
 #>      speed           dist       
