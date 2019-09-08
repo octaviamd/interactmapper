@@ -7,21 +7,22 @@
 pca_maker(count_data)
 }
 \arguments{
-\item{count_data}{A dataframe holding the data that you want to apply umap to}
+\item{count_data}{A dataframe with the input data}
 }
 \value{
 a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column
 }
 \description{
-This function takes in your count data and returns a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column
+Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
 }
 \details{
-DETAILS
+Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
 }
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
+ p<-pca_maker(iris[,1:4])
  }
 }
+
 }

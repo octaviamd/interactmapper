@@ -2,7 +2,7 @@
 #' @description Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
 #' @param count_data  A dataframe with the input data
 #' @return a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column
-#' @details Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
+#' @details 
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
