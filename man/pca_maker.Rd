@@ -16,10 +16,6 @@ a dataframe with the two feature columns resulting from the PCA dimension reduct
 Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
 }
 \examples{
-\dontrun{
-if(interactive()){
  p<-pca_maker(iris[,1:4])
- }
-}
 
 }
