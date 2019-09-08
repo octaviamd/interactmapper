@@ -38,7 +38,8 @@ library(interactmapper)
 #> Registered S3 method overwritten by 'openssl':
 #>   method      from
 #>   print.bytes Rcpp
-#interact_qual(iris[,1:4], iris$Species, "UMAP")
+#interactmapper::interact_qual(iris[,1:4], iris$Species, "UMAP")
+#ggplot2::ggplot(mtcars, ggplot2::aes(wt, mpg)) + ggplot2::geom_point()
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
