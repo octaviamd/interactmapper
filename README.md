@@ -35,12 +35,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(interactmapper)
-#> Registered S3 method overwritten by 'openssl':
-#>   method      from
-#>   print.bytes Rcpp
 #interactmapper::interact_qual(iris[,1:4], iris$Species, "UMAP")
-#ggplot2::ggplot(mtcars, ggplot2::aes(wt, mpg)) + ggplot2::geom_point()
+ggplot2::ggplot(mtcars, ggplot2::aes(wt, mpg)) + ggplot2::geom_point()
 ```
+
+<img src="man/figures/README-example-1.png" width="100%" />
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
