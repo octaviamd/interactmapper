@@ -7,7 +7,7 @@
 umakea(count_data)
 }
 \arguments{
-\item{count_data}{A dataframe holding the data that you want to apply umap to}
+\item{count_data}{A dataframe with the input data}
 }
 \value{
 a dataframe with the two feature columns resulting from the UMAP dimension reduction and a sample names column
@@ -15,15 +15,8 @@ a dataframe with the two feature columns resulting from the UMAP dimension reduc
 \description{
 This function takes in your count data and returns a dataframe with the two feature columns resulting from the UMAP dimension reduction and a sample names column
 }
-\details{
-DETAILS
-}
 \examples{
-\dontrun{
-if(interactive()){
- #EXAMPLE1
- }
-}
+p<-umakea(iris[,1:4])
 }
 \seealso{
 \code{\link[umap]{umap}}

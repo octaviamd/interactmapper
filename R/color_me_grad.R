@@ -1,9 +1,9 @@
 #' @title color_me_grad
 #' @description function to make color info dataframe corresponding to your feature of interest for your data that you want represented via color, then adding it to the dimension reduced dataframe
 #' @param u_data dataframe holding output of dimension reduction
-#' @param info_overlay numerical data that color_me_grad will represent with color gradations
-#' @param your_palette the palette of your choice (please see colourvalues documentation to see options)
-#' @return dataframe with original dimension reduction and column with color values, as well as the info_overlay column
+#' @param info_overlay data that color_me_grad will represent with color
+#' @param your_palette the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)
+#' @return dataframe with original dimension reduction and column with color values, and the info_overlay column
 #' @examples 
 #' color_me_grad(umakea(iris[,1:4]), iris$Sepal.Length, "viridis")
 #' @seealso 

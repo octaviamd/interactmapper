@@ -14,20 +14,13 @@ color_me_grad(u_data, info_overlay, your_palette)
 \item{your_palette}{the palette of your choice (please see colourvalues documentation to see options)}
 }
 \value{
-OUTPUT_DESCRIPTION
+dataframe with original dimension reduction and column with color values, as well as the info_overlay column
 }
 \description{
-function to make color info dataframe corresponding to DNA methylation, then adding it to the dimension reduced dataframe
-}
-\details{
-DETAILS
+function to make color info dataframe corresponding to your feature of interest for your data that you want represented via color, then adding it to the dimension reduced dataframe
 }
 \examples{
-\dontrun{
-if(interactive()){
- #EXAMPLE1
- }
-}
+color_me_grad(umakea(iris[,1:4]), iris$Sepal.Length, "viridis")
 }
 \seealso{
 \code{\link[colourvalues]{colour_values}}
