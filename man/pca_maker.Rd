@@ -10,7 +10,7 @@ pca_maker(count_data)
 \item{count_data}{A dataframe with the input data}
 }
 \value{
-a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column
+a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column (where sample names are obtained from the rownames of count_data)
 }
 \description{
 Returns a dataframe with the two feature columns resulting from the PCA (principal components analysis) dimension reduction and a sample names column
@@ -19,5 +19,5 @@ Returns a dataframe with the two feature columns resulting from the PCA (princip
  p<-pca_maker(iris[,1:4])
 }
 \seealso{
-\code{\link[prcomp]{stats}}
+\code{\link[prcomp]{prcomp}}
 }
