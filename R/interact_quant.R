@@ -15,6 +15,7 @@
 #' }
 #' @rdname interact_quant
 #' @export 
+#' @importFrom ggplot plotly
 interact_quant=function(count_data, quant_info_name, quant_info, dim_red_meth, your_palette){
   if(toupper(dim_red_meth)=="UMAP"){
     dim_data<-umakea(count_data)
