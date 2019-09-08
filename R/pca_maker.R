@@ -16,6 +16,5 @@ pca_maker=function(count_data){
   p<-pca_results$x[,1:2]
   sample.labels<-rownames(count_data)
   p<-data.frame(cbind.data.frame(p, sample.labels, stringsAsFactors=FALSE))
-  print(str(p))
   return(p)
 }
