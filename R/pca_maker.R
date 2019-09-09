@@ -5,7 +5,7 @@
 #' @examples 
 #'  p<-pca_maker(iris[,1:4])
 #' @seealso 
-#'  \code{\link[prcomp]}
+#'  \code{\link[prcomp]
 #' @rdname pca_maker
 #' @export 
 pca_maker=function(count_data){
