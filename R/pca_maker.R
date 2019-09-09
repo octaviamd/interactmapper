@@ -4,8 +4,7 @@
 #' @return a dataframe with the two feature columns resulting from the PCA dimension reduction and a sample names column (where sample names are obtained from the rownames of count_data)
 #' @examples 
 #'  p<-pca_maker(iris[,1:4])
-#' @seealso 
-#'  \code{\link[prcomp]}
+#' @seealso \code{\link{prcomp}}
 #' @rdname pca_maker
 #' @export 
 pca_maker=function(count_data){
