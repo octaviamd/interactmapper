@@ -19,5 +19,5 @@ Returns a dataframe with the two feature columns resulting from the PCA (princip
  p<-pca_maker(iris[,1:4])
 }
 \seealso{
-\code{\link[prcomp]}
+\code{\link{prcomp}}
 }

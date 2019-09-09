@@ -7,6 +7,7 @@
 #' @seealso \code{\link{prcomp}}
 #' @rdname pca_maker
 #' @export 
+#' @importFrom("stats", "prcomp", "var")
 pca_maker=function(count_data){
   pca_results<-prcomp(count_data)
   p<-pca_results$x[,1:2]
