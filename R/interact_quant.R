@@ -1,16 +1,16 @@
 #' @title interact_quant
-#' @description FUNCTION_DESCRIPTION
-#' @param count_data PARAM_DESCRIPTION
-#' @param quant_info_name PARAM_DESCRIPTION
-#' @param quant_info PARAM_DESCRIPTION
-#' @param dim_red_meth PARAM_DESCRIPTION
-#' @param your_palette PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
+#' @description Generates an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
+#' @param count_data dataframe of input data
+#' @param quant_info_name title of quantitative data
+#' @param quant_info quantitative data used to color points of plot
+#' @param dim_red_meth dimension reduction method: "pca" or "umap" are the options available now
+#' @param your_palette the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)
+#' @return  an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
 #' @details DETAILS
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
-#'  #EXAMPLE1
+#'  interact_quant(iris[,1:4], iris[,4], "UMAP")
 #'  }
 #' }
 #' @rdname interact_quant

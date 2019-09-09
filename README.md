@@ -35,15 +35,12 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(interactmapper)
-#> Warning: package 'interactmapper' was built under R version 3.6.1
 #interactmapper::interact_qual(iris[,1:4], iris$Species, "UMAP")
 #ggplot2::ggplot(mtcars, ggplot2::aes(wt, mpg)) + ggplot2::geom_point()
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
-
-![](https://media.giphy.com/media/xUOxf7XfmpxuSode1O/giphy.gif)
 
 ``` r
 summary(cars)
