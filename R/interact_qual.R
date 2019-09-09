@@ -4,7 +4,6 @@
 #' @param qual_data qualitative data used to color points of plot
 #' @param dim_red_meth dimension reduction method: "pca" or "umap" are the options available now
 #' @return an interactive dimension reduction plot that is color-coordinated with qualitative data
-#' @details DETAILS
 #' @examples 
 #' \dontrun{
 #' if(interactive()){

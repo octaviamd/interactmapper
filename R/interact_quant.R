@@ -6,7 +6,6 @@
 #' @param dim_red_meth dimension reduction method: "pca" or "umap" are the options available now
 #' @param your_palette the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)
 #' @return  an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
-#' @details DETAILS
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
