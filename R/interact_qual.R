@@ -13,7 +13,7 @@
 #' }
 #' @rdname interact_qual
 #' @export 
-interact_qual=function(count_data, qual_data, dim_red_meth){
+interact_qual=function(count_data, qual_data, dim_red_meth=c("UMAP", "PCA")){
   if(toupper(dim_red_meth)=="UMAP"){
     dim_data<-umakea(count_data)
   }

@@ -8,21 +8,21 @@ interact_quant(count_data, quant_info_name, quant_info, dim_red_meth,
   your_palette)
 }
 \arguments{
-\item{count_data}{PARAM_DESCRIPTION}
+\item{count_data}{dataframe of input data}
 
-\item{quant_info_name}{PARAM_DESCRIPTION}
+\item{quant_info_name}{title of quantitative data}
 
-\item{quant_info}{PARAM_DESCRIPTION}
+\item{quant_info}{quantitative data used to color points of plot}
 
-\item{dim_red_meth}{PARAM_DESCRIPTION}
+\item{dim_red_meth}{dimension reduction method: "pca" or "umap" are the options available now}
 
-\item{your_palette}{PARAM_DESCRIPTION}
+\item{your_palette}{the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)}
 }
 \value{
-OUTPUT_DESCRIPTION
+an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
 }
 \description{
-FUNCTION_DESCRIPTION
+Generates an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
 }
 \details{
 DETAILS
@@ -30,7 +30,7 @@ DETAILS
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
+ interact_quant(iris[,1:4], iris[,4], "UMAP")
  }
 }
 }

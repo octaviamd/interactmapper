@@ -7,17 +7,17 @@
 interact_qual(count_data, qual_data, dim_red_meth)
 }
 \arguments{
-\item{count_data}{PARAM_DESCRIPTION}
+\item{count_data}{dataframe of input data}
 
-\item{qual_data}{PARAM_DESCRIPTION}
+\item{qual_data}{qualitative data used to color points of plot}
 
-\item{dim_red_meth}{PARAM_DESCRIPTION}
+\item{dim_red_meth}{dimension reduction method: "pca" or "umap" are the options available now}
 }
 \value{
-OUTPUT_DESCRIPTION
+an interactive dimension reduction plot that is color-coordinated with qualitative data
 }
 \description{
-FUNCTION_DESCRIPTION
+Generates an interactive dimension reduction plot that is color-coordinated with qualitative data related to your dataset.
 }
 \details{
 DETAILS
@@ -25,7 +25,7 @@ DETAILS
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
+ interact_qual(iris[,1:4], iris$Species, "UMAP")
  }
 }
 }
