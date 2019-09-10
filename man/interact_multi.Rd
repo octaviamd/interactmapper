@@ -8,33 +8,31 @@ interact_multi(count_data, main_info_data, sec_info_data, dim_red_meth,
   your_palette, main_info_name, sec_info_name)
 }
 \arguments{
-\item{count_data}{PARAM_DESCRIPTION}
+\item{count_data}{dataframe of input data}
 
-\item{main_info_data}{PARAM_DESCRIPTION}
+\item{main_info_data}{data for main feature of interest for samples of dataset}
 
-\item{sec_info_data}{PARAM_DESCRIPTION}
+\item{sec_info_data}{data for secondary feature of interest for samples of dataset}
 
-\item{dim_red_meth}{PARAM_DESCRIPTION}
+\item{dim_red_meth}{dimension reduction method: "pca" or "umap" are the options available now}
 
-\item{your_palette}{PARAM_DESCRIPTION}
+\item{your_palette}{the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)}
 
-\item{main_info_name}{PARAM_DESCRIPTION}
+\item{main_info_name}{title for main feature of interest}
 
-\item{sec_info_name}{PARAM_DESCRIPTION}
+\item{sec_info_name}{title (or vector of titles in the case of multiple) for the secondary features of interest}
 }
 \value{
-OUTPUT_DESCRIPTION
+interactive dimension reduction plot that is color-coordinated with a main feature of interest related to your dataset, and displays additional secondary information upon mouse hover over points.
 }
 \description{
-FUNCTION_DESCRIPTION
-}
-\details{
-DETAILS
+Generates an interactive dimension reduction plot that is color-coordinated with a main feature of interest related to your dataset, and displays additional secondary information upon mouse hover over points.
 }
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
+ interact_multi(iris[,1:4], iris$Sepal.Length, iris$Species, "UMAP", "viridis", "Sepal Length", "Species")
+ interact_multi(iris[,1:4], iris$Species, iris[,1:2], "UMAP", "viridis", "Species", c("Sepal Length", "Sepal Width"))
  }
 }
 }
