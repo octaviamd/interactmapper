@@ -22,7 +22,7 @@ interact_quant(count_data, quant_info_name, quant_info, dim_red_meth,
 an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
 }
 \description{
-Generates an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
+Generates an interactive dimension reduction plot that is color-coordinated with quantitative data related to your dataset.
 }
 \examples{
 \dontrun{
