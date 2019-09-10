@@ -4,7 +4,7 @@
 \alias{interact_qual}
 \title{interact_qual}
 \usage{
-interact_qual(count_data, qual_data, dim_red_meth)
+interact_qual(count_data, qual_data, dim_red_meth = c("UMAP", "PCA"))
 }
 \arguments{
 \item{count_data}{dataframe of input data}
@@ -18,9 +18,6 @@ an interactive dimension reduction plot that is color-coordinated with qualitati
 }
 \description{
 Generates an interactive dimension reduction plot that is color-coordinated with qualitative data related to your dataset.
-}
-\details{
-DETAILS
 }
 \examples{
 \dontrun{

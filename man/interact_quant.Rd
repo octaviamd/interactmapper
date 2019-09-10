@@ -24,9 +24,6 @@ an interactive dimension reduction plot that is color-coordinated with quaantita
 \description{
 Generates an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
 }
-\details{
-DETAILS
-}
 \examples{
 \dontrun{
 if(interactive()){

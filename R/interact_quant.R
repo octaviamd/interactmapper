@@ -1,5 +1,5 @@
 #' @title interact_quant
-#' @description Generates an interactive dimension reduction plot that is color-coordinated with quaantitative data related to your dataset.
+#' @description Generates an interactive dimension reduction plot that is color-coordinated with quantitative data related to your dataset.
 #' @param count_data dataframe of input data
 #' @param quant_info_name title of quantitative data
 #' @param quant_info quantitative data used to color points of plot
