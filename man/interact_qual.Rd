@@ -14,7 +14,7 @@ interact_qual(count_data, qual_data, dim_red_meth = c("UMAP", "PCA"))
 \item{dim_red_meth}{dimension reduction method: "pca" or "umap" are the options available now}
 }
 \value{
-an interactive dimension reduction plot that is color-coordinated with qualitative data
+an interactive dimension reduction plot that is color-coordinated with qualitative data, and on hover, displays sample name and the qualitative feature of interest
 }
 \description{
 Generates an interactive dimension reduction plot that is color-coordinated with qualitative data related to your dataset.

@@ -17,7 +17,7 @@
 #' }
 #' @rdname interact_multi
 #' @export 
-interact_multi=function(count_data, main_info_data, sec_info_data, dim_red_meth, your_palette, main_info_name, sec_info_name){
+interact_multi=function(count_data, main_info_data, sec_info_data, dim_red_meth=c("UMAP", "PCA"), your_palette, main_info_name, sec_info_name){
   if(toupper(dim_red_meth)=="UMAP"){
     dim_data<-umakea(count_data)
   }

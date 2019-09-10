@@ -14,7 +14,7 @@
 #' }
 #' @rdname interact_quant
 #' @export 
-interact_quant=function(count_data, quant_info_name, quant_info, dim_red_meth, your_palette){
+interact_quant=function(count_data, quant_info_name, quant_info, dim_red_meth=c("UMAP", "PCA"), your_palette){
   if(toupper(dim_red_meth)=="UMAP"){
     dim_data<-umakea(count_data)
   }

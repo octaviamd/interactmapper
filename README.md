@@ -11,7 +11,9 @@ status](https://travis-ci.org/octaviamd/interactmapper.svg?branch=master)](https
 status](https://ci.appveyor.com/api/projects/status/github/octaviamd/interact-mapper?branch=master&svg=true)](https://ci.appveyor.com/project/octaviamd/interact-mapper)
 <!-- badges: end -->
 
-The goal of interactmapper is to …
+The goal of interactmapper is to make analyzing dimension reduction
+plots more intuitive and user-friendly, by allowing users to overlay
+features of interest of the dataset onto the plot via color
 
 ## Installation
 
