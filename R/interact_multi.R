@@ -1,18 +1,18 @@
 #' @title interact_multi
-#' @description FUNCTION_DESCRIPTION
-#' @param count_data PARAM_DESCRIPTION
-#' @param main_info_data PARAM_DESCRIPTION
-#' @param sec_info_data PARAM_DESCRIPTION
-#' @param dim_red_meth PARAM_DESCRIPTION
-#' @param your_palette PARAM_DESCRIPTION
-#' @param main_info_name PARAM_DESCRIPTION
-#' @param sec_info_name PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @description Generates an interactive dimension reduction plot that is color-coordinated with a main feature of interest related to your dataset, and displays additional secondary information upon mouse hover over points.
+#' @param count_data dataframe of input data
+#' @param main_info_data data for main feature of interest for samples of dataset
+#' @param sec_info_data data for secondary feature of interest for samples of dataset
+#' @param dim_red_meth dimension reduction method: "pca" or "umap" are the options available now
+#' @param your_palette the palette of your choice (please see \code{\link[colourvalues]{colour_values}} documentation to see options)
+#' @param main_info_name title for main feature of interest
+#' @param sec_info_name title (or vector of titles in the case of multiple) for the secondary features of interest
+#' @return interactive dimension reduction plot that is color-coordinated with a main feature of interest related to your dataset, and displays additional secondary information upon mouse hover over points.
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
-#'  #EXAMPLE1
+#'  interact_multi(iris[,1:4], iris$Sepal.Length, iris$Species, "UMAP", "viridis", "Sepal Length", "Species")
+#'  interact_multi(iris[,1:4], iris$Species, iris[,1:2], "UMAP", "viridis", "Species", c("Sepal Length", "Sepal Width"))
 #'  }
 #' }
 #' @rdname interact_multi
@@ -39,7 +39,7 @@ interact_multi=function(count_data, main_info_data, sec_info_data, dim_red_meth,
     }
   }
   if(missing(sec_info_name)==TRUE){
-    if(is.vector(sec_info_data)==TRUE){
+    if(is.vector(sec_info_data)==TRUE | is.null(dim(sec_info_data))==TRUE){
       sec_info_name<-"Secondary info"
     }
     else{
