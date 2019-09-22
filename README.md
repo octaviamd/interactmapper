@@ -80,6 +80,7 @@ The `interact_quant` function is used to represent features that are
 quantitative in nature (gene expression, DNA methylation, height, etc…).
 
 ``` r
+#interact_quant(iris[,1:4], iris[,4], "UMAP")
 ```
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
