@@ -4,8 +4,8 @@
 \alias{interact_quant}
 \title{interact_quant}
 \usage{
-interact_quant(count_data, quant_info_name, quant_info, dim_red_meth,
-  your_palette)
+interact_quant(count_data, quant_info_name, quant_info,
+  dim_red_meth = c("UMAP", "PCA"), your_palette)
 }
 \arguments{
 \item{count_data}{dataframe of input data}

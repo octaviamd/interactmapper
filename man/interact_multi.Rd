@@ -4,8 +4,9 @@
 \alias{interact_multi}
 \title{interact_multi}
 \usage{
-interact_multi(count_data, main_info_data, sec_info_data, dim_red_meth,
-  your_palette, main_info_name, sec_info_name)
+interact_multi(count_data, main_info_data, sec_info_data,
+  dim_red_meth = c("UMAP", "PCA"), your_palette, main_info_name,
+  sec_info_name)
 }
 \arguments{
 \item{count_data}{dataframe of input data}
