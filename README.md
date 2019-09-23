@@ -83,7 +83,7 @@ quantitative in nature (gene expression, DNA methylation, height, etc…).
 #interact_quant(iris[,1:4], "Petal Width",  iris[,4], "UMAP")
 ```
 
-Below you can see an example of the interact\_quant function being
+Below you can see an example of the `interact_quant` function being
 applied to color the datapoints of the plot based on the feature of
 interest, the petal width of the irises. Upon hovering over a point, a
 pop-up box displaying the Sample Name and the feature of interest
@@ -97,7 +97,7 @@ display it:
 
 <img src="man/figures/color_options.png" width="100%" />
 
-The default palette option is “matlablike\_2”. Here is the same plot,
+The default palette option is “matlablike_2”. Here is the same plot,
 only with the palette
 “viridis”.
 
@@ -105,6 +105,19 @@ only with the palette
 #interactmapper::interact_quant(iris[,1:4], "Petal Width",  iris[,4], "UMAP", "viridis")
 ```
 <img src="man/figures/iris_quant_viridis.png" width="100%" />
+
+## interact_multi
+
+To display information on multiple features on mouse hover over data points, you can use the `interact_multi` function.
+In this case, following the dataset argument, the main feature of interest is the next argument: this provides the data that is used for the colours of your datapoints, and is also included in the information hover text-box. Following that argument is the secondary feature argument, where you can designate the secondary features you are interested in.
+
+In the example below, you can see the Sepal Length selected as the main feature of interest, with the Species selected as the secondary feature of interest.
+
+
+``` r
+#interactmapper::interact_multi(iris[,1:4], iris$Sepal.Length, iris$Species, "UMAP", "viridis", "Sepal Length", "Species")
+```
+
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date.
