@@ -124,6 +124,6 @@ You can select multiple secondary features of interest, as seen in the example b
 ``` r
 #interact_multi(iris[,1:4], iris$Species, iris[,1:2], "UMAP", "viridis", "Species", c("Sepal Length", "Sepal Width"))
 ```
-<img src="man/figures/iris_multi_1.png" width="100%" />
+<img src="man/figures/interact_multi_1.png" width="100%" />
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date.
