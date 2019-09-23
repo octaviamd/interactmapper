@@ -117,7 +117,7 @@ In the example below, you can see the Sepal Length selected as the main feature 
 ``` r
 #interactmapper::interact_multi(iris[,1:4], iris$Sepal.Length, iris$Species, "UMAP", "viridis", "Sepal Length", "Species")
 ```
-
+<img src="man/figures/iris_multi.png" width="100%" />
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date.
