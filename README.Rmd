@@ -7,7 +7,7 @@ output: github_document
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
-  collapse = TRUE,
+  #collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
   out.width = "100%"
@@ -65,8 +65,21 @@ Here is an example of applying PCA instead of UMAP to the same data, looking at 
 The `interact_quant` function is used to represent features that are quantitative in nature (gene expression, DNA methylation, height, etc...).
 
 ``` r
-#interact_quant(iris[,1:4], iris[,4], "UMAP")
+#interact_quant(iris[,1:4], "Petal Width",  iris[,4], "UMAP")
 ```
+Below you can see an example of the interact_quant function being applied to color the datapoints of the plot based on the feature of interest, the petal width of the irises. Upon hovering over a point, a pop-up box displaying the Sample Name and the feature of interest appears. 
+<img src="man/figures/iris_quant.png" width="100%" />
+
+The color palette used can be chosen from a range of available palettes from the package [colourvalues](https://github.com/SymbolixAU/colourvalues) displayed below based on your preferences to best suit your data and how to display it:
+
+<img src="man/figures/color_options.png" width="100%" />
+
+The default palette option is "matlablike_2". Here is the same plot, only with the palette "viridis".
+
+``` r
+#interactmapper::interact_quant(iris[,1:4], "Petal Width",  iris[,4], "UMAP", "viridis")
+```
+
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date.

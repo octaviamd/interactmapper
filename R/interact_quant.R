@@ -9,7 +9,7 @@
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
-#'  interact_quant(iris[,1:4], iris[,4], "UMAP")
+#'  interact_quant(iris[,1:4], "petal Width",  iris[,4], "UMAP")
 #'  }
 #' }
 #' @rdname interact_quant
