@@ -95,7 +95,7 @@ from the package
 below based on your preferences to best suit your data and how to
 display it:
 
-<img src="man/figures/iris_quant.png" width="100%" />
+<img src="man/figures/color_options.png" width="100%" />
 
 The default palette option is “matlablike\_2”. Here is the same plot,
 only with the palette
