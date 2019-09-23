@@ -13,7 +13,7 @@ status](https://ci.appveyor.com/api/projects/status/github/octaviamd/interact-ma
 
 The goal of interactmapper is to make analyzing dimension reduction
 plots more intuitive and user-friendly, by allowing users to overlay
-features of interest of the dataset onto the plot via color
+features of interest of the dataset onto the plot via color,
 
 ## Installation
 
