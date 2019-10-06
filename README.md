@@ -124,5 +124,6 @@ You can select multiple secondary features of interest, as seen in the example b
 ``` r
 #interact_multi(iris[,1:4], iris$Species, iris[,1:2], "UMAP", "viridis", "Species", c("Sepal Length", "Sepal Width"))
 ```
+For qualitative features, make sure that the qualitative data is in factor form rather than chr.
 <img src="man/figures/interact_multi_1.png" width="100%" />
 
